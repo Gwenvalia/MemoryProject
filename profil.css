@@ -1,0 +1,26 @@
+h2 {
+  text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* centrage de l'image et border pour obtenir un cercle */
+img {
+   width: 100px;
+   align-self: center;
+   margin: 20px;
+   padding: 5px;
+   border: 2px solid black;
+   border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    margin: 50px;
+    font-size: large;
+    font-weight: bold;
+}

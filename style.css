@@ -1,0 +1,80 @@
+/* CSS global pour le site entier */
+
+/* suppression des margin, padding pour les ajuster individuellement (plus facile) */
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* supression des puces de listes et du soulignage (a pas oublier) */
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: light;
+  margin: 30px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+/* mise en forme du menu */
+.menu li {
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(41, 120, 156);
+  color: white;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
+}
+
+.menu li:hover {
+  background-color: rgb(53, 136, 123);
+}
+
+.menu li:active {
+  background-color: rgb(41, 120, 156);
+  transform: scale(0.95);
+  transition: transform 0.2s;
+}
+
+/* mise en place de la section principale de chaque page (cadre blanc rempli de vert) */
+section {
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(41, 120, 156);
+  color: white;
+  width: fit-content;
+}
+
+section .jeu {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENI - Memory</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="formulaire.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ENI - MEMORY - Inscription</h1>
+      <nav>
+        <ul class="menu">
+          <a href="index.html"><li>Accueil</li></a>
+          <a href="formulaire.html"><li>S'inscrire</li></a>
+          <a href="connexion.html"><li>Se connecter</li></a>
+          <a href="profil.html"><li>Profil</li></a>
+          <a href="game.html"><li>Jouer</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Inscrivez vous</h2>
+        <fieldset>
+          <legend>Formulaire</legend>
+          <form id="formulaire" action="" method="post">
+            <div class="champs">
+              <!-- champs nom d'utilisateur -->
+              <label for="nom">Nom d'utilisateur</label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                autofocus
+                required
+                placeholder="3 caractères minimum"
+              />
+              <span class="errorNom"></span>
+              <br/>
+              <!-- champs mail -->
+              <label for="mail">Entrez votre email</label>
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                placeholder="Votre email"
+                required
+              />
+              <span class="errorMail"></span>
+              <br />
+              <!-- champ mot de passe -->
+              <label for="password">Mot de passe</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Votre mot de passe"
+              />
+              <span
+                >Au moins un symbole, un chiffre, ainsi que 6 caractères
+                minimum.</span
+              >
+              <!-- div vides pour l'intégration de la force du mot de passe -->
+              <div class="forceMdp">
+                <div class="faible"></div>
+                <div class="moyen"></div>
+                <div class="fort"></div>
+              </div>
+              <br />
+              <!-- champs vérification de mot de passe -->
+              <label for="password2">Confirmez le mot de passe</label>
+              <input
+                type="password"
+                name="password2"
+                id="password2"
+                placeholder="Confirmez le mot de passe"
+              />
+              <span class="errorMdp"></span>
+            </div>
+            <br />
+            <!-- bouton validation formulaire -->
+            <div class="boutons">
+              <label for="valider"></label>
+              <input
+                type="submit"
+                id="valider"
+                name="valider"
+                value="Création du compte"
+              />
+              <!-- bouton reset données -->
+              <label for="annuler"></label>
+              <input 
+                type="reset" 
+                id="annuler" 
+                name="annuler" 
+                value="Annuler" 
+              />
+            </div>
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/formulaire.js"></script>
+  </body>
+</html>

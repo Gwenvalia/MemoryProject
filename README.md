@@ -39,5 +39,20 @@ L'inscription enregistre le nouvel utilisateur en localStorage
 Indique a l'utilisateur lors de l'inscription les champs obligatoires, gère les inscriptions non conforment et indiquent la force du mot de passe choisi (avec validation du mot de passe fonctionnelle s'ils sont identiques)
 
 ### Se connecter
+![page_connexion](https://github.com/Gwenvalia/MemoryProject/assets/125590697/ce3584ef-c665-42b5-90c9-45ec4f03668d)
+
+Cette page n'est pas fonctionnelle, il n'y a pas encore le lien avec le local storage pour récupérer les informations de connexion
+
+### Profil
+![page_profil](https://github.com/Gwenvalia/MemoryProject/assets/125590697/4c63c041-5626-4a90-9e63-9b6e20d0cef6)
+
+Page non fonctionnelle également, la page de connexion ne fonctionnant pas
+
+### Jouer
+![page_jeu](https://github.com/Gwenvalia/MemoryProject/assets/125590697/0e44fb59-2e64-400f-8dfd-2d0b219f0a5a)
+
+Jeu fonctionnel, et affichage du message lorsque le joueur gagne.
+Il n'y a cependant pas encore l'affichage des meilleurs scores
+![page_jeu_win](https://github.com/Gwenvalia/MemoryProject/assets/125590697/a3466e48-a8c7-4e1c-8944-6d73fd49a898)
 
 
